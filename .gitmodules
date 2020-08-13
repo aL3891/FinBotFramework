@@ -1,0 +1,6 @@
+[submodule "Tulip.NETCore"]
+	path = Tulip.NETCore
+	url = https://github.com/hmG3/Tulip.NETCore.git
+[submodule "TA-Lib.NETCore"]
+	path = TA-Lib.NETCore
+	url = https://github.com/hmG3/TA-Lib.NETCore.git

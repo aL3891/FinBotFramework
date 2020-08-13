@@ -1,0 +1,19 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: consoleapp8
+services:
+- name: FinBotFramework
+  project: FinBotFramework/FinBotFramework.csproj
+- name: sqlserver
+  image: mcr.microsoft.com/mssql/server:2019-CU6-ubuntu-16.04
+  bindings:
+    - port: 1433
+  env:
+    - name: ACCEPT_EULA
+      value: Y
+    - name: SA_PASSWORD
+      value: Testtest123
