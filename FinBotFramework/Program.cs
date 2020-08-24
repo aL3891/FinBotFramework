@@ -14,7 +14,8 @@ namespace FinBotNet
 
         static void Main(string[] args)
         {
-            GenerateTulipIndicators();
+            GenerateTulipIndicators()
+
         }
 
         private static void GenerateTulipIndicators()
@@ -31,7 +32,7 @@ using System.Threading.Tasks;
 using Tulip;
 using System.Linq;
 
-namespace FinBotNet
+namespace FinBotNet.Tulip
 {{
     /// <summary>
     /// {item.Value.FullName}
